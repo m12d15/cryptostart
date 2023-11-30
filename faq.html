@@ -11,33 +11,99 @@
 </head>
 
 <body>
+
+ <!--HEADER-->
+ <header class="bg-white">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <div class="flex lg:flex-1">
+        <a href="./index.html" class="-m-1.5 p-1.5">
+          <span class="sr-only">Your Company</span>
+          <img class="h-8 w-auto" src="./img/logo.png" alt="">
+        </a>
+      </div>
+      <div class="flex lg:hidden">
+        <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+          <span class="sr-only">Open main menu</span>
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </div>
+      <div class="hidden lg:flex lg:gap-x-12">
+        
+  
+        <a href="./buy.html" class="text-sm font-semibold leading-6 text-gray-900">Как купить Криптовалюту в Беларуси</a>
+        <a href="./sell.html" class="text-sm font-semibold leading-6 text-gray-900">Как обналичить Криптовалюту в Беларуси</a>
+        <a href="./faq.html" class="text-sm font-semibold leading-6 text-gray-900">FAQ--</a>
+      </div>
+      <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+        <a href="https://instagram.com/cryptostart.by?igshid=MzMyNGUyNmU2YQ==" class="text-sm font-semibold leading-6 text-gray-900">CryptoStart <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </nav>
+    <!-- Mobile menu, show/hide based on menu open state. -->
+    <div class="lg:hidden" role="dialog" aria-modal="true">
+      <!-- Background backdrop, show/hide based on slide-over state. -->
+      <div class="fixed inset-0 z-10"></div>
+      <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <div class="flex items-center justify-between">
+          <a href="./index.html" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            <img class="h-8 w-auto" src="./img/logo.png" alt="">
+          </a>
+          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+            <span class="sr-only">Close menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="mt-6 flow-root">
+          <div class="-my-6 divide-y divide-gray-500/10">
+            <div class="space-y-2 py-6">
+              <div class="-mx-3">
+
+               
+              <a href="./buy.html" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                Как купить Криптовалюту в Беларуси </a>
+              <a href="./sell.html" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Как обналичить Криптовалюту в Беларуси</a>
+              <a href="./faq.html" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">FAQ--</a>
+            </div>
+            <div class="py-6">
+              <a href="https://instagram.com/cryptostart.by?igshid=MzMyNGUyNmU2YQ==" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">CryptoStart<span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
     <!-- Container for demo purpose -->
     <div class="container my-24 mx-auto md:px-6">
         <!-- Section: Design Block -->
         <section class="mb-32">
             <h2 class="  py-24 sm:py-30 mb-16 text-center text-3xl font-bold">
-                Frequently asked questions
+                Основные вопросы:
             </h2>
 
-            <div class=" m-3.5 grid gap-x-8 gap-y-4 lg:grid-cols-3">
+            <div class=" m-3.5 grid gap-x-8 gap-y-10 lg:grid-cols-3">
                 <div class=" mb-6 md:mb-8 lg:mb-12">
-                    <p class="mb-4 font-bold">Anim pariatur cliche reprehenderit?</p>
+                    <p class="mb-4 font-bold">Облогаеться ли налогами криптовалютные операции в Беларуси?</p>
                     <p class="text-neutral-500 dark:text-neutral-300">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
-                        autem numquam dolore molestias aperiam culpa alias veritatis
-                        architecto eos, molestiae vitae ex eligendi libero eveniet
-                        dolorem, doloremque rem aliquid perferendis.
+                        Согласно:  <dd class="mt-2 text-base leading-7 text-gray-600"> 
+                            <a href="https://president.gov.by/ru/documents/dekret-8-ot-21-dekabrja-2017-g-17716">Декрет № 8 от 21 декабря 2017 г.</a> <br>
+                            <a href="https://president.gov.by/ru/documents/ukaz-no-80-ot-28-marta-2023-g">Указ № 80 от 28 марта 2023 г.</a>
+                           </dd> Криптовалюта в Республике Беларусь не облагается налогами для физических лиц.
                     </p>
                 </div>
 
                 <div class="mb-6 md:mb-8 lg:mb-12">
-                    <p class="mb-4 font-bold">Non cupidatat skateboard dolor brunch?</p>
+                    <p class="mb-4 font-bold">Как я могу купить криптовалюту?</p>
                     <p class="text-neutral-500 dark:text-neutral-300">
-                        Distinctio corporis, iure facere ducimus quos consectetur ipsa ut
-                        magnam autem doloremque ex! Id, sequi. Voluptatum magnam sed fugit
-                        iusto minus et suscipit? Minima sunt at nulla tenetur, numquam
-                        unde quod modi magnam ab deserunt ipsam sint aliquid dolores
-                        libero repellendus cupiditate mollitia quidem dolorem odit
+                        Данный сайт создан для того чтоб обяснить и показать как это сделать:
+                        <dd class="mt-2 text-base leading-7 text-gray-600"> 
+                            <a href="./buy_bel.html">1. Белорсские биржи.</a> <br>
+                            <a href="./buy_en.html"> 2. Зарубежные биржы..</a>
+                           </dd>
                     </p>
                 </div>
 
